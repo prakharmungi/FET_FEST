@@ -1,0 +1,190 @@
+	<!-- start banner Area -->
+	<section class="banner-area relative" id="home">
+      <div class="overlay overlay-bg"></div>
+      <div class="container">
+        <div class="row d-flex align-items-center justify-content-center">
+          <div class="about-content col-lg-12">
+            <h1 class="text-white">
+              I am a Candidate
+            </h1>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End banner Area -->
+  
+    <!-- Start contact-page Area -->
+    <section class="contact-page-area section-gap" style="padding-top: 30px">
+      <div class="container">
+        <div class="row">
+  
+          <div class="col-lg-12">
+              <div class="single-service" data-toggle="modal" data-target="#myBasicModal">
+                  <h4><span class="lnr lnr-user"></span>Basic Information</h4>
+                  <p>
+                    Basic personal Information about yourself.
+                  </p>
+                </div>
+                
+          </div>
+  
+          <div class="col-lg-12">
+              <div class="single-service" data-toggle="modal" data-target="#myPicModal">
+                  <h4><span class="lnr lnr-user"></span>Upload Profile Picture</h4>
+                  <p>
+                      Upload your Passport size Profile Picture
+                  </p>
+                </div>
+                
+            </div>
+  
+          <div class="col-lg-12">
+              <div class="single-service" data-toggle="modal" data-target="#myDocModal">
+                <h4><span class="lnr lnr-license"></span>Documents</h4>
+                <p>
+                    Upload your relevant Documents
+                </p>
+              </div>
+            </div>
+        </div>
+      </div>
+       
+    </section>
+    <!-- End contact-page Area -->
+  
+    <div class="modal fade" id="myBasicModal" role="dialog">
+      <div class="modal-dialog">
+  
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">Basic Information</h4>
+          </div>
+          <div class="modal-body">
+            <div class="container">
+              <form action="/action_page.php">
+  
+                <div class="form-group">
+                  <label for="userName">User Name:</label>
+                  <input type="text" class="form-control" id="userName" placeholder="Enter UserName"
+                    name="userName">
+                </div>
+  
+                <div class="form-group">
+                  <label for="pwd">User Name:</label>
+                  <input type="password" class="form-control" id="pwd" placeholder="Enter password"
+                    name="pwd">
+                </div>
+  
+                <div class="form-group">
+                  <label for="fname">First Name:</label>
+                  <input type="text" class="form-control" id="fname" placeholder="Enter First Name"
+                    name="fname">
+                </div>
+  
+                <div class="form-group">
+                  <label for="lname">Last Name:</label>
+                  <input type="text" class="form-control" id="lname" placeholder="Enter Last Name"
+                    name="lname">
+                </div>
+  
+                <div class="form-group">
+                  <label for="email">Email Id:</label>
+                  <input type="email" class="form-control" id="email" placeholder="Enter Email"
+                    name="email">
+                </div>
+  
+                <div class="form-group">
+                  <label for="date">Date of Birth:</label>
+                  <input type="date" class="form-control" id="age" placeholder="Enter Date of Birth"
+                    name="date">
+                </div>
+  
+                <div class="form-group">
+                  <label for="phoneNo">Contact No:</label>
+                  <input type="text" class="form-control" id="phoneNo" placeholder="Enter Contact No"
+                    name="phoneNo">
+                </div>
+  
+                <div class="form-group">
+                  <label for="add">Address:</label>
+                  <input type="text" class="form-control" id="add" placeholder="Enter Address" name="add">
+                </div>
+  
+  
+  
+              </form>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Submit</button>
+  
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+  
+      </div>
+    </div>
+  
+    <div class="modal fade" id="myDocModal" role="dialog">
+        <div class="modal-dialog">
+        
+          <!-- Modal content-->
+          <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">Upload Documents</h4>
+          </div>
+          <div class="modal-body">
+            <div class="container">
+                <form action="/action_page.php">
+                  <p>Submit CV:</p>
+                  <input type="file" id="myFileCV" name="filename">
+                  <p>Addhar Card:</p>
+                  <input type="file" id="myFileAddhar" name="filename1">
+                  <p>PAN Card:</p>
+                  <input type="file" id="myFilePAN" name="filename2">
+                  <p>Education Documents:</p>
+                  <input type="file" id="myFileEdu" name="filename3">
+                  <p>Swavlamban Card:</p>
+                  <input type="file" id="myFileSC" name="filename4">
+                  <p>Other Documents:</p>
+                  <input type="file" id="myFileOD" name="filename5">
+                  </form>
+              </div>
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Submit</button>
+    
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+          </div>
+          
+        </div>
+        </div>
+  
+        <div class="modal fade" id="myPicModal" role="dialog">
+          <div class="modal-dialog">
+          
+            <!-- Modal content-->
+            <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title">Upload Documents</h4>
+            </div>
+            <div class="modal-body">
+              <div class="container">
+                  <form action="/action_page.php">
+                    <p>Upload Profile Picture:</p>
+                    <input type="file" id="myFileUPP" name="filename">
+                    </form>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Submit</button>
+      
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+            </div>
+            
+          </div>
+          </div>
+          

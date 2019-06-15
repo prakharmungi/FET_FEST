@@ -23,9 +23,30 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles/css/linearicons.css",
+              "src/styles/css/font-awesome.min.css",
+              "src/styles/css/bootstrap.css",
+              "src/styles/css/magnific-popup.css",
+              "src/styles/css/nice-select.css",
+              "src/styles/css/animate.min.css",
+              "src/styles/css/owl.carousel.css",
+              "src/styles/css/main.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.min.js",
+              "src/js/easing.min.js",
+              "src/js/hoverIntent.js",
+              "src/js/superfish.min.js",
+              "src/js/jquery.ajaxchimp.min.js",
+              "src/js/jquery.magnific-popup.min.js",
+              "src/js/owl.carousel.min.js",
+              "src/js/jquery.sticky.js",
+              "src/js/jquery.nice-select.min.js",
+              "src/js/parallax.min.js",
+              "src/js/mail-script.js",
+              "src/js/main.js"
+            ]
           },
           "configurations": {
             "production": {
